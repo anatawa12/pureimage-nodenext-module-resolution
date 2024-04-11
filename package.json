@@ -1,0 +1,19 @@
+{
+  "name": "pureimage-nodenext-module-resolution",
+  "version": "1.0.0",
+  "description": "test package for pureimage with nodenext moduleResolution",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "type": "module",
+  "author": "anatawa12",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "pureimage": "^0.4.13"
+  }
+}
